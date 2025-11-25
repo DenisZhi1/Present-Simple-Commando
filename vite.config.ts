@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/my-react-game/', // 👈 имя твоего репозитория
+    base: '/Present-Simple-Commando/', // 👈 имя твоего репозитория
     server: {
       port: 3000,
       host: '0.0.0.0',
